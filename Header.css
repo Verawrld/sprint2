@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #232f3e;
+  color: white;
+}
+
+.site-name {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.cart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.cart-icon {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #f08804;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 14px;
+  color: white;
+}
+
+.cart-icon-img {
+  width: 40px;
+  height: 40px;
+}
